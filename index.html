@@ -1,0 +1,108 @@
+<head>
+	<meta charset="utf-8">
+	<title>Drogi Świętego Jakuba</title>
+	<meta name="description" content="Camino">
+	<meta name="keywords" content="Bogusław Gorczyca">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	
+	<style>
+	#container
+	{
+		
+		font-family: 'PT Sans Narrow', sans-serif;
+		width: 1100px;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	#logo
+	{
+		background-color: #006699;
+		color: white;
+		text-align: center;
+		padding: 15px;
+	}
+	#nav
+	{
+		float: left;
+		background-color: lightgray;
+		width: 120px;
+		min-height: 620px;
+		padding: 10px;
+	}
+	#content
+	{
+		float: left;
+		padding: 20px;
+		width: 640px;
+	}
+	#ad
+	{
+		float: left;
+		width: 260px;
+		min-height: 620px;
+		padding: 10px;
+		background-color: lightgray;
+	}
+	#footer
+	{
+		clear: both;
+		background-color: #006699;
+		color: white;
+		text-align: center;
+		padding: 20px;
+	}	
+	</style>
+
+</head>
+
+<body>
+
+	<div id="container" style="display: block;">
+	
+		<div id="logo">
+			 <h2>Fajne książki</h2>
+		</div>
+	
+		<div id="nav">
+			Tytuły: <br>
+			<a href="1.html"> Droga królów </a> <br>
+			<a href="2.html"> Wiedźmin </a> <br>
+			<a href="3.html"> Ogień przeznaczenia </a> <br><br> <br>
+			Oparte na prawdziwych osobach:<br>
+			<a href="4.html"> Mein kampf </a> <br>
+		    <a href="5.html"> Poczet władców Polski </a> <br>
+		</div>
+		
+		<div id="content">
+			<h3>Całkiem fajne książeczki</h3>
+			<center>lista stworzona na podstawie informacji z internetu i własnego doświadczenia<br>
+			</center>
+			<br>
+			<br>
+					<img src="img/1.jpg" high="360" width="640"><br>
+			
+		</div>
+		
+		<div id="ad">
+				<img id="aaa" src="img/8.jpg" high="462" style="display: inline-block;" width="260"><br>
+		
+		</div>
+		
+		<div id="footer">
+			Przykładowa strona zrealizowana w oparciu o kurs M. Zelenta: <b>www.miroslawzelent.pl</b>
+		</div>
+	
+	</div>
+	        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+        <script>
+     $("#container").hide();
+        $("#aaa").hide();
+        $("#container").slideDown(1000, function() {
+						$("#aaa").slideDown(1000);  
+        });
+    
+            
+        </script>
+
+
+</body>
